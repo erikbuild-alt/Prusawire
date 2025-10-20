@@ -1,0 +1,27 @@
+name: Prusawire Documentation
+title: Prusawire Documentation
+description: Positron3D's Prusawire - Official Documentation
+theme: just-the-docs
+logo: images/positron.svg
+title_only_logo: false
+favicon: images/favicon.ico
+url: https://erikbuild-alt.github.io/Prusawire
+search_enabled: true
+search.button: true
+aux_links:
+  "Positron3D Home":
+    - "https://positron3d.com"
+  "Prusawire GitHub":
+    - "https://github.com/Positron3D/Prusawire"
+
+
+## Get rid of the stuff below probably?
+#color_scheme: voron-dark
+#
+#callouts:
+#  warning:
+#    title: Warning
+#    color: voron-red
+#  note:
+#    title: Note
+#    color: grey-lt

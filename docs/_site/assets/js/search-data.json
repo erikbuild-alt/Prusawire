@@ -1,0 +1,247 @@
+{"0": {
+    "doc": "Assembly Manual",
+    "title": "Assembly Manual",
+    "content": "A Voron-style Assembly Manual / Build Guide is in the works. Check back here soon for a released PDF! . ",
+    "url": "/assembly-manual.html",
+    
+    "relUrl": "/assembly-manual.html"
+  },"1": {
+    "doc": "FAQ",
+    "title": "Frequently Asked Questions",
+    "content": " ",
+    "url": "/faq.html#frequently-asked-questions",
+    
+    "relUrl": "/faq.html#frequently-asked-questions"
+  },"2": {
+    "doc": "FAQ",
+    "title": "Where is the latest BOM (Bill of Materials)?",
+    "content": "The latest BOM can be found on GitHub in the BOM folder. ",
+    "url": "/faq.html#where-is-the-latest-bom-bill-of-materials",
+    
+    "relUrl": "/faq.html#where-is-the-latest-bom-bill-of-materials"
+  },"3": {
+    "doc": "FAQ",
+    "title": "How can I get a Serial # for my finished build?",
+    "content": "We are accepting serials over on the Positron 3D Discord. Please submit your request to the #prusawire-serial-request channel over there. There is an example submission and numerous other builds to reference for the format. ",
+    "url": "/faq.html#how-can-i-get-a-serial--for-my-finished-build",
+    
+    "relUrl": "/faq.html#how-can-i-get-a-serial--for-my-finished-build"
+  },"4": {
+    "doc": "FAQ",
+    "title": "Where can I get help with my build?",
+    "content": "The community over on the Positron 3D Discord is very helpful. Check out the #prusawire-questions channel there. ",
+    "url": "/faq.html#where-can-i-get-help-with-my-build",
+    
+    "relUrl": "/faq.html#where-can-i-get-help-with-my-build"
+  },"5": {
+    "doc": "FAQ",
+    "title": "FAQ",
+    "content": " ",
+    "url": "/faq.html",
+    
+    "relUrl": "/faq.html"
+  },"6": {
+    "doc": "Gantry Deracking",
+    "title": "Gantry Deracking",
+    "content": ". | Overview | Prerequisites | Instructions | . Current Compatibility: Prusawire - Beta 1 . ",
+    "url": "/hardware/gantry-deracking.html",
+    
+    "relUrl": "/hardware/gantry-deracking.html"
+  },"7": {
+    "doc": "Gantry Deracking",
+    "title": "Overview",
+    "content": "The gantry de-racking procedure is critical to ensure smooth motion in X and Z. The general idea is to loosen certain screws on the gantry, bump the bottom of the gantry against the X and Z motor joints to align, and tighten the screws. ",
+    "url": "/hardware/gantry-deracking.html#overview",
+    
+    "relUrl": "/hardware/gantry-deracking.html#overview"
+  },"8": {
+    "doc": "Gantry Deracking",
+    "title": "Prerequisites",
+    "content": ". | Confirm your frame geometry is square: Frame Assembly - Geometry Check | The following should be assembled already: . | Frame | Z-Axis | X-Gantry with toolhead mount | . | You should be ready to belt both the X and Z axis. | . ",
+    "url": "/hardware/gantry-deracking.html#prerequisites",
+    
+    "relUrl": "/hardware/gantry-deracking.html#prerequisites"
+  },"9": {
+    "doc": "Gantry Deracking",
+    "title": "Instructions",
+    "content": ". | Remove the toolhead from the carriage mount (if currently installed). | For Stealthburner, see the Stealthburner assembly manual for instructions. | . | Remove the bed, y-carriage, and y-rods completely off the printer (if currently installed). | Remove the bumper block and door puller block from the back of the gantry (if currently installed). | Remove the top left idler assembly and top right idler assembly loosening the M3 SHCS on each. | TIP: A small piece of tape on the top and bottom of the assembly can be used to help keep the bearing stack together. | . | Remove the x-gantry assembly from the printer by lifting it up off the z-axis rods. | Loosen all six M5 BHCS from each side of the x-gantry assembly. | Ensure each end of the 2020 extrusion is seated ALL the way into the printed parts. | Re-install the x-gantry assembly onto the printer by sliding it onto the z-axis rods from the top. | Move the x-gantry assembly up and down a few times to allow parts to settle. | Lower the x-gantry assembly until it bumps against the X and Z motor mounts. | Tighten the two top M5 BHCS on the x-gantry assembly, followed by the two front M5 BHCS. | Raise the x-gantry assembly up to the top just high enough to be able to tighten the rear two M5 BHCS. | Lower the x-gantry assembly back down to the bottom. | Re-install the top left idler assembly and top right idler assembly by tightening the two M3 SHCS on each. | Re-install the bumper block and door puller block on the rear of the gantry. | Move the gantry up and down. You shouldn’t feel any resistance. | When the gantry bumps the top of the frame, it should bump equally on both sides. | . | When the gantry bumps the bottom (X motor mount and Z motor mount), it should bump equally on both sides. | . | Check for any gantry racking a final time after installing XZ belts (and prior to installation of Y-axis). Adjust front/top M5 screws if needed. | . ",
+    "url": "/hardware/gantry-deracking.html#instructions",
+    
+    "relUrl": "/hardware/gantry-deracking.html#instructions"
+  },"10": {
+    "doc": "Tuning and Calibration Overview",
+    "title": "Tuning and Calibration Overview",
+    "content": ". | General Resources | Miscellaneous Notes | . ",
+    "url": "/tuning-calibration/",
+    
+    "relUrl": "/tuning-calibration/"
+  },"11": {
+    "doc": "Tuning and Calibration Overview",
+    "title": "General Resources",
+    "content": ". | Minimal 3DP’s Basic Klipper Configuration Checks Procedure . | Klipper Basic Configuration Checks - Google Sheets | . | Minimal 3DP’s Klipper Calibrations Spreadsheet . | Klipper Calibrations - Google Sheets | This is extremely useful to dial in your hot end (e.g. if you’re not using a Voron Revo, you’re using something odd like the Bambu X1C Hotend, etc) | In particular: . | Orca Slicer Flow Calibration | Orca Slicer Flow Calibration YOLO | Pressure Advance | PA &amp; Orca Slicer | Max Volumetric Speed | Extrusion Rate Smoothing (ERS) | . | Nice to have: . | Run Current . | particularly if using the BTT SKR Mini E3 V3.0 which can handle higher currents than the Einsey RAMbo… | . | Skew Correction | . | . | OrcaSlicer’s Calibration Info: Calibration · SoftFever/OrcaSlicer Wiki · GitHub | | . ",
+    "url": "/tuning-calibration/#general-resources",
+    
+    "relUrl": "/tuning-calibration/#general-resources"
+  },"12": {
+    "doc": "Tuning and Calibration Overview",
+    "title": "Miscellaneous Notes",
+    "content": ". | Ella suggests that if using SKR Mini, motor currents can increase over the values provided for the slower Rambo board. See Run Current above. | . ",
+    "url": "/tuning-calibration/#miscellaneous-notes",
+    
+    "relUrl": "/tuning-calibration/#miscellaneous-notes"
+  },"13": {
+    "doc": "Home",
+    "title": "Positron3D’s Prusawire Documentation",
+    "content": ". A wholly unofficial Prusa MK3 and MK4 to Switchwire total conversion mod, from Positron’s April Fools of 2025. ",
+    "url": "/#positron3ds-prusawire-documentation",
+    
+    "relUrl": "/#positron3ds-prusawire-documentation"
+  },"14": {
+    "doc": "Home",
+    "title": "About",
+    "content": "Nomad of Positron3D came up with this idea shortly after completing their Switchwire build. The idea started as a quick design exercise, to try and convert a Prusa MK4S frame into a Switchwire, using everything left over from a CORE One Upgrade. As the first iteration wrapped up, I took interest in the project, and decided to take this April Fools joke one step further and build it into a reliable machine. After months of hard work, please enjoy the build ❤ . -@ellafoxo . ",
+    "url": "/#about",
+    
+    "relUrl": "/#about"
+  },"15": {
+    "doc": "Home",
+    "title": "Who This Printer is For",
+    "content": "Pick one of the following: . | You have an old MK3, MK3S, or MK3S+, and you want to teach an old dog new tricks and are on a budget | You upgraded from MK4S to a Core ONE, and have a leftover frame. You are okay spending money on building a new printer with that hardware. | . Additionally, the following says this printer is for you: . | You want to take your first steps into RepRap beyond Prusa, and Voron is an exciting route. | . ## Technical Support . Prusawire, technically, does not count as a Voron Switchwire. We ask you kindly not to nag the Voron Design team for technical support. Instead, please join the Positron3D Discord for support with your build, and maybe share your progress over there too. ",
+    "url": "/#who-this-printer-is-for",
+    
+    "relUrl": "/#who-this-printer-is-for"
+  },"16": {
+    "doc": "Home",
+    "title": "Serial Numbers",
+    "content": "We are accepting serials over on the Positron 3D Discord. Please submit your request to the #prusawire-serial-request channel over there. ",
+    "url": "/#serial-numbers",
+    
+    "relUrl": "/#serial-numbers"
+  },"17": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"18": {
+    "doc": "Hardware Overview",
+    "title": "Hardware Overview",
+    "content": "The official Assembly Manual (along with the Fusion CAD Link) should be your guide for assembly. There are, of course, a few more complicated procedures which we have documented in detail here: . | Gantry Deracking | XZ Belt | Y Belt | . ",
+    "url": "/hardware/",
+    
+    "relUrl": "/hardware/"
+  },"19": {
+    "doc": "Software Overview",
+    "title": "Software Overview",
+    "content": " ",
+    "url": "/software/",
+    
+    "relUrl": "/software/"
+  },"20": {
+    "doc": "Software Overview",
+    "title": "Klipper Configuration Files",
+    "content": "The most up–to–date Klipper configuration files for setting up or updating the Prusawire are in our config repository. ",
+    "url": "/software/#klipper-configuration-files",
+    
+    "relUrl": "/software/#klipper-configuration-files"
+  },"21": {
+    "doc": "Software Overview",
+    "title": "Upgrading the Einsy Rambo to Klipper - Read this",
+    "content": "Installing Klipper on the Einsy Rambo board is possible, with extra steps. Follow the guide published by the awesome folks at MyRigs3D! We recommend Method 2. Note: Some users have reported problems using avrdude with the latest Raspberry Pi OS version (bookworm). If you experience error messages from avrdude complaining about gpio ports being busy, please try using the bullseye version of Raspberry Pi OS instead, available as “Raspberry Pi OS (Legacy)” in Raspberry Pi Imager. ",
+    "url": "/software/#upgrading-the-einsy-rambo-to-klipper---read-this",
+    
+    "relUrl": "/software/#upgrading-the-einsy-rambo-to-klipper---read-this"
+  },"22": {
+    "doc": "Software Overview",
+    "title": "Resources",
+    "content": ". | Voron Software Installation Guide for some good resources on Mainsail (Klipper on Raspberry Pi) and Control Board firmware. | Raspberry Pi OS based | MainsailOS | Welcome to Mainsail | Mainsail | GitHub - bigtreetech/BIGTREETECH-SKR-mini-E3 | BIGTREETECH-SKR-mini-E3/firmware/V3.0/Klipper at master · bigtreetech/BIGTREETECH-SKR-mini-E3 · GitHub | . ",
+    "url": "/software/#resources",
+    
+    "relUrl": "/software/#resources"
+  },"23": {
+    "doc": "Software Overview",
+    "title": "Configuration",
+    "content": "Start with the Positron3D Prusawire Configuration settings and profiles. More detail general instructions are found at Software Configuration | Voron Documentation. Sensorless Homing . If you are running the Einsy board, congrats, you are now done. For the BTT SKR Mini E3, some further tuning likely needs to happen. Refer to this guide by clee on setting the correct stallguard threshold. Input Shaper . Some defaults have been provided, but they are no doubt unsuitable for your exact machine. We recommend installing ShakeTune for measuring resonances, and reading the Klipper guide on understanding which value to choose. Y Axis Input Shaping: This requires an external accelerometer (eg LDO Input Shaper) to be mounted to your heated bed. ",
+    "url": "/software/#configuration",
+    
+    "relUrl": "/software/#configuration"
+  },"24": {
+    "doc": "Overview",
+    "title": "Overview",
+    "content": "Welcome to the Prusawire documentation. ",
+    "url": "/overview.html",
+    
+    "relUrl": "/overview.html"
+  },"25": {
+    "doc": "Overview",
+    "title": "Overview",
+    "content": ". | Frequently Asked Questions | Assembly Manual: Links to the latest Prusawire Assembly Manual PDF. | . ",
+    "url": "/overview.html",
+    
+    "relUrl": "/overview.html"
+  },"26": {
+    "doc": "Overview",
+    "title": "Hardware",
+    "content": ". | Gantry Deracking: How to derack the gantry for smooth and accurate motion. | XZ Belt Installation and Tensioning: How to install the main CoreXZ Motion Belts. | Y Belt Installation and Tensioning: How to install the Y Motion Belt. | . ",
+    "url": "/overview.html#hardware",
+    
+    "relUrl": "/overview.html#hardware"
+  },"27": {
+    "doc": "Overview",
+    "title": "Software",
+    "content": ". | Software Installation Overview | . ",
+    "url": "/overview.html#software",
+    
+    "relUrl": "/overview.html#software"
+  },"28": {
+    "doc": "Overview",
+    "title": "Tuning and Calibration",
+    "content": ". | Tuning and Calibration | . ",
+    "url": "/overview.html#tuning-and-calibration",
+    
+    "relUrl": "/overview.html#tuning-and-calibration"
+  },"29": {
+    "doc": "XZ Belt Installation and Tensioning",
+    "title": "XZ Belt Installation and Tensioning",
+    "content": ". | Overview | Prerequisites | Instructions . | Belt Installation | Belt Tensioning | . | . Compatibility: Prusawire - Beta 1 . ",
+    "url": "/hardware/xz-belt.html",
+    
+    "relUrl": "/hardware/xz-belt.html"
+  },"30": {
+    "doc": "XZ Belt Installation and Tensioning",
+    "title": "Overview",
+    "content": "The X and Z belts must be installed and tensioned properly to ensure smooth and accurate gantry motion. Important notes: . | Extra belt length has been specified in the BOM; it is expected to have some leftover belt afterwards. | Match your belt lengths before assembling the printer! | When inserting the belt clips, there should be an equal number of teeth sticking out of the ends. | DO NOT cut your belts until you are 1000% certain you have done it correctly. It’s okay to leave a little extra length hanging out the back of the toolhead carriage until final assembly and validation. | . ",
+    "url": "/hardware/xz-belt.html#overview",
+    
+    "relUrl": "/hardware/xz-belt.html#overview"
+  },"31": {
+    "doc": "XZ Belt Installation and Tensioning",
+    "title": "Prerequisites",
+    "content": ". | Complete the Gantry Deracking procedure. | Remove the toolhead from the carriage mount (if currently installed). | For Stealthburner, see the Stealthburner assembly manual for instructions. | . | (Optional, but highly recommended) Print and assemble the GT2 Belt Runner to easily and perfectly match your belt lengths: Belt Runner - GT2 Belt Length Matcher | Printables.com | . ",
+    "url": "/hardware/xz-belt.html#prerequisites",
+    
+    "relUrl": "/hardware/xz-belt.html#prerequisites"
+  },"32": {
+    "doc": "XZ Belt Installation and Tensioning",
+    "title": "Instructions",
+    "content": "Belt Installation . | Measure out 1600mm of GT2 belt for the X axis. Double-check your measurement, then cut this length. Set aside for now. | Tip: Mark some tape on your desk with 100mm increments using a tape measure or calipers. | . | Measure out another ~1600mm length of GT2 belt for the Z axis. Do not cut it yet! | Match the belt lengths (note: if not using the GT2 Belt Runner, carefully match the belt lengths by hand!) . | Align the starting teeth of the of the X belt and Z belt. | Feed into the GT2 Belt Runner (see above). | Use belt runner to find the exact same length of Z belt as X belt. Note one belt will be exactly one tooth offset from the other. | Once you are sure the belts are the same length, cut the Z belt to match the X belt. | . | Using tape or a zip tie, raise the gantry about 75% of the way towards the top of the frame. | Remove the 4x M3x14 SHCS securing the x carriage assembly to the linear rail. Remove the assembly. | Remove the 3x M3x40 SHCS from the left side of the x-carriage assembly to separate the left side from the right side. | Gather all the needed parts: . | 2x 1600mm Gates GT2 Belt | 2x M3x40 SHCS | 2x [a]_belt_tensioner_clip | 2x [a]_belt_clip | 2x belt_clip | 4x M3x14 SHCS | 1x x-carriage - left side | 1x x-carriage - right side | . | Take the x-carriage - right side and install it back onto the x-carriage mount (on the rail) with 2x M3x14 SHCS. | Take the first [a]_belt_tensioner_clip. Feed a small amount of one of the belts (belt teeth facing up) through the slot on the side with the heat insert. Pass just enough belt through so 3 teeth are visible from the opposite side. Insert a belt_clip under to secure. | Tip: You can press the retaining clip against a flat surface to help force the retaining clip into the tensioner clip. | . | Repeat this process for the other clip and belt. It is critical for both clips to have the same number of exposed belt teeth showing. | Pass the long end of each belt (teeth facing up) through the two slots from the inside to the outside of the mounted x-carriage - right side. | *NOTE: The [a]_belt_tensioner_clip with the single dot goes towards the rear of the printer. The clip with the two dots goes towards the front of the printer. | . | Z Belt: Route the belt through the belt path (see diagram; belt path noted in GREEN): . | Right towards the XZ Block - Right. | Around the bearing stack and down towards the Z Motor. | Back up around the Z Motor Pulley through the XZ Block - Right towards the Idler Block - Right. | Around the bearing stack and left towards Idler Block - Left. | Around the bearing stack and down towards XZ Block - Left. | Around the bearing stack and right towards the X-carriage. | Tip: Make sure the belt isn’t twisted at any point! | Tip: Check the Z Motor Pulley alignment with the belt. Adjust with the set screws on the pulley if needed to ensure good belt alignment that doesn’t rub on the motor mounts. | . | X Belt: Route the belt through the belt path (see diagram; belt path noted in YELLOW): . | Right towards the XZ Block - Right. | Around the bearing stack and up towards Idler Block - Right. | Around the bearing stack and left towards Idler Block - Left. | Around the bearing stack and down through XZ Block - Left towards X Motor. | Back up around the X Motor Pulley towards XZ Block - Left. | Around the bearing block and right towards the x-carriage. | Tip: Make sure the belt isn’t twisted at any point! | Tip: Check the X Motor Pulley alignment with the belt. Adjust with the set screws on the pulley if needed to ensure good belt alignment that doesn’t rub on the motor mounts. | . | Pass the two belts through the outside of the x-carriage - left side. | Rejoin the x-carriage - left side to the mounted carriage with the 3x M3x40 SHCS. Direct the excess belt length down for now. | Pull the excess belts evenly to remove the slack from the belt system. Carefully line up the ends of the belts to ensure they are the same length and the ends match up evenly. | Insert both [a]_belt_clips to secure the belts to the left side of the carriage. | Confirm once again the ends of the belts are perfectly aligned. If they have shifted, remove the clips and re-adjust. | Unmount the x-carriage assembly from the linear rail one last time by removing the 2x M3x14 SHCS from the front. | Carefully rotate the assembly towards you to view the belts inside. | Leaving 3 to 4 teeth exposed on the left side of the assembly, carefully cut the belts. | Re-mount the assembly back onto the linear rail carriage with all 4x M3x14 SHCS. | Install the 2x M3 x 40 SHCS into the left side of the x-carriage assembly and screw into the [a]_belt_tensioner_clips until just seated. | You are finished and ready to tension the XZ Belts! . | . Belt Tensioning . To properly tension the X and Z belts: . | Begin turning the two M3x40 SHCS tensioning screws in the x-carriage assembly. | Turn clockwise to increase tension. | Turn counterclockwise to decrease tension. | . | Once slack is removed, and prior to final tension: . | TRIPLE CHECK YOUR BELTS to make sure they are riding correctly on the bearings and pulleys. If they aren’t, loosen and correct. | . | If the tensioning screw bottoms out you can either: . | Replace the M3x40 SHCS with a fully threaded version | Try tensioning both belts a few more groove notches on the left side of the x-carriage assembly and re-installing the [a]_belt_tensioner_clips to secure. | . | Visually inspect your X carriage belt tensioner. If your belts are not stretched, you should see that the two tensioner blocks are almost in line with one another. | Come to the front of the printer and inspect the right side of your X carriage. Your belt teeth should align with one another. If they do not, make minor adjustments to the tensioner screws until they do. | Follow up with tuning your belt tension with one of the final tensioning options below. | . Final Tensioning Options: . | PF Makes Belt Tensioning Meter: 3D-Printer/GT2 Belt Tension Meter at main · Diyshift/3D-Printer · GitHub . | Switchwire “Z” Spec - 1.8 to 2.2 (1.9 to 2.3 for EPDM high-temp belt) | . | Prusa Belt Tension Gauge: Tension Meter for the GT2 belts of i3 MK3S+ or Prusa MINI+ by Prusament | Download free STL model | Printables.com | Biqu’s Digital Belt Tension Tool: GitHub - bigtreetech/Belter-belt-tension-Tool: Belter belt tension Tool Info Page | Prusa Mobile App: . | Prusa on the Apple App Store | Prusa - Apps on Google Play | Tuner Mode for MK3S –&gt; X-Axis . | Carriage all the way to the right | . | . | Prusa Website Tuner: Prusa Belt tuner . | MK3S –&gt; X-Axis . | Carriage all the way to the right | . | . | Gates Carbon Drive Mobile App . | Carbon Drive Belt Tension Tool on the Apple App Store | Carbon Drive - Apps on Google Play | 85 Hz | . | . ",
+    "url": "/hardware/xz-belt.html#instructions",
+    
+    "relUrl": "/hardware/xz-belt.html#instructions"
+  },"33": {
+    "doc": "Y Belt Installation and Tensioning",
+    "title": "Y Belt Installation and Tensioning",
+    "content": ". | Overview | . Compatibility: Prusawire - Beta 1 . ",
+    "url": "/hardware/y-belt.html",
+    
+    "relUrl": "/hardware/y-belt.html"
+  },"34": {
+    "doc": "Y Belt Installation and Tensioning",
+    "title": "Overview",
+    "content": "The Y belt must be installed and tensioned properly to ensure smooth and accurate bed motion. Important notes: . | Extra belt length has been specified in the BOM; it is expected to have some leftover belt afterwards. | DO NOT cut your belts until you are 1000% certain you have done it correctly. It’s okay to leave a little extra length hanging out until final assembly and validation. | . ",
+    "url": "/hardware/y-belt.html#overview",
+    
+    "relUrl": "/hardware/y-belt.html#overview"
+  }
+}
