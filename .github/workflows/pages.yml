@@ -42,7 +42,7 @@ jobs:
           ruby-version: "3.4"
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
-          working_directory: '${{ github.workspace }}/docs'
+          working-directory: '${{ github.workspace }}/docs'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
