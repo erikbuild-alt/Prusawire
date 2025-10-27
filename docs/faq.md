@@ -20,12 +20,4 @@ The community over on the [Positron 3D Discord](https://discord.com/invite/posit
 
 ## My NiteHawk-SB loses connection when there is a restart
 
-```
-Alright, found my way to their "usb and canbus toolboards" there, and they seem to recommend the same fix for the "nitehawk does not reconnect after firmware restart" issue too.
-I definitely have the 1.5 board
-So, I had to remove both R7 and R6
-Now it works.
-Flashing works, firmware restart works.
-
--einarjh PW.0012
-```
+If you are running V1.5 of the LDO Motors NiteHawh-SB USB board (the board that connects to the Raspberry Pi): you need to remove BOTH R6 and R7.
