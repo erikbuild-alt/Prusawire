@@ -2,6 +2,7 @@ name: Prusawire Documentation
 title: Prusawire Documentation
 description: Positron3D's Prusawire - Official Documentation
 theme: just-the-docs
+color_scheme: positron-dark
 logo: images/positron.svg
 title_only_logo: false
 favicon: images/favicon.ico

@@ -2,14 +2,14 @@
 
 This runs using 'just-the-docs' template that creates a simple static HTML website using Jekyll / GitHub pages.  This is the exact same system the Voron Design Team uses for docs.vorondesign.com.
 
-## Outstanding TODOs
-- Get the title text to appear next to the logo
-- Tweak the light mode theme
-- Create a pleasant dark mode theme (check online?)
-- Add a theme selector button on the left (check online plugins?)
-- Setup temp deploy (see below) for demo site
-- Setup permenant deploy settings for real site.
+## Formatting Guide 
 
+https://just-the-docs.github.io/just-the-docs/
+
+## Outstanding TODOs
+- Setup temp deploy (see below) for demo site
+- Show to Nomad and get feedback on direction to pursue.
+- Setup permenant deploy settings for real site.
 
 ## Publishing the site on GitHub Pages
 
