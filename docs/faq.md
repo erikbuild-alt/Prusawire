@@ -29,3 +29,10 @@ If you are running V1.5 of the LDO Motors NiteHawh-SB USB board (the board that 
 [PDF Instruction Guide](assets/NiteHawkSB_R6-R7_Resistor_Removal_Guide.pdf): this details for R7, but you will ALSO need to remove R6!
 
 ![](images/nitehawbsb_fix.png)
+
+## How do I make the cool silver serial sticker once I have my serial#?
+
+Instructions from @Telefaksi (PW.0004):
+>Custom serial sticker for Prusawire. Made for 24 mm tape, I used Brother TZe-M951 Black/Matt Silver tape. Included are Affinity Designer 2 package folder as .zip, .stl and .step files for printable cutting stencil. QR-code is made with Affinity Designer's QR-code tool so url can be edited to link to your serial request post. I exported .png image and imported it to Brother's P-touch Editor for printing.  
+>Fonts are included in the package but in case you want to download them the fonts are from Google fonts. Play in regular and bold. https://fonts.google.com/specimen/Play
+>In images folder is WEEE marking as vector image.
