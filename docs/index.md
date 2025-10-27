@@ -33,7 +33,7 @@ Additionally, the following says this printer is for you:
  - You want to take your first steps into RepRap beyond Prusa, and Voron is an exciting route.
 
 
- ## Technical Support
+## Technical Support
 
 Prusawire, technically, does not count as a Voron Switchwire. We ask you kindly not to nag the Voron Design team for technical support.
 
